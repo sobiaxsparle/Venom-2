@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8' ?><!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2024-03-01 02:27 PM
+5.0.214.1001035 (1001035)
+6dde908 (27-Nov-2023 8:29:22 pm)
+-->
+<scene title="Adil edits" width="1440" height="1080" exportWidth="1440" exportHeight="1080" precompose="dynamicResolution" bgcolor="#ffd8d8d8" totalTime="24233" fps="30" modifiedTime="1709285245942" amver="1001035" ffver="106" am="com.alightcreative.motion/5.0.214.1001035" amplatform="android" retime="freeze" retimeAdaptFPS="false">
+  <shape id="10028847" label="quality_restoration_20240229222403614.mp4" startTime="0" endTime="24233" fillType="media" fillVideo="content://media/external/video/media/1000064367" outTime="24201" mediaFillMode="fill" s=".rect">
+    <transform>
+      <location value="720.000000,540.000000,0.000000" />
+    </transform>
+    <property name="size" type="vec2" value="720.000000,540.000000" />
+  </shape>
+  <shape id="10017526" label="Rounded Rectangle 1" startTime="0" endTime="24232" fillType="color" blending="subtract" mediaFillMode="fill" s=".roundrect">
+    <transform>
+      <location value="704.022095,587.968506,0.000000" />
+      <scale value="7.200000,7.200000" />
+    </transform>
+    <fillColor value="#ff8a3f23" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float" value="0.150000" />
+    </effect>
+    <effect id="com.alightcreative.effects.exposure" locallyApplied="true">
+      <property name="exposure" type="float" value="-0.850000" />
+      <property name="gamma" type="float" value="1.000000" />
+      <property name="offset" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.satvib" locallyApplied="true">
+      <property name="saturation" type="float" value="-0.160000" />
+      <property name="vib" type="float" value="1.000000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="10017527" label="Rounded Rectangle 2" startTime="0" endTime="24232" fillType="color" blending="overlay" mediaFillMode="fill" s=".roundrect">
+    <transform>
+      <location value="704.022095,587.968506,0.000000" />
+      <scale value="7.200000,7.200000" />
+    </transform>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="10017528" label="Rounded Rectangle 3" startTime="0" endTime="24232" fillType="gradient" blending="color-dodge" mediaFillMode="fill" s=".roundrect">
+    <transform>
+      <location value="704.022095,587.968506,0.000000" />
+      <scale value="7.200000,7.200000" />
+      <opacity value="0.314453" />
+    </transform>
+    <fillColor value="#ff000000" />
+    <gradient type="linear" startColor="#ffffffff" endColor="#ff000000" start="0.764717,0.612550" end="0.769814,1.404989" />
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="10017529" label="Rounded Rectangle 4" startTime="0" endTime="24232" fillType="color" mediaFillMode="fill" s=".roundrect">
+    <transform>
+      <location value="704.022095,587.968506,0.000000" />
+      <scale value="7.200000,7.200000" />
+    </transform>
+    <fillColor value="#ff5eb7d9" />
+    <effect id="com.alightcreative.effects.lift" locallyApplied="true">
+      <property name="fill" type="float" value="0.000000" />
+    </effect>
+    <effect id="com.alightcreative.effects.satvib" locallyApplied="true">
+      <property name="saturation" type="float" value="0.000000" />
+      <property name="vib" type="float" value="1.540000" />
+    </effect>
+    <property name="size" type="vec2" value="100.000000,100.000000" />
+    <property name="cornerRadius" type="float" value="25.000000" />
+  </shape>
+  <shape id="10017531" label="Circle 1" startTime="0" endTime="24232" fillType="color" blending="screen" mediaFillMode="fill" s=".circle">
+    <transform>
+      <location value="745.443848,342.130157,0.000000" />
+      <opacity value="0.351563" />
+    </transform>
+    <effect id="com.alightcreative.effects.gaussianblur" locallyApplied="true">
+      <property name="strength" type="float" value="2.000000" />
+    </effect>
+    <property name="size" type="vec2" value="590.797485,119.986725" />
+  </shape>
+</scene>
